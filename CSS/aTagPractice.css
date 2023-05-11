@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 200px;
+}
+
+/* 
+  레이아웃 및 공통적으로 사용하는 것들은 
+  css 제일 상단에 표기해주고 클래스 명만 해당하는 html 코드에 부여하는 것이 좋음 
+*/
+.txt-green {
+  color: green;
+  font-weight: 700;
+}
+
+
+/* css 작성 순서는 html 순서에 맞춰 작성해줘야함!!  */
+
+.box {
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  /* text-align 의 기본값은 lift  / 박스안에 텍스트(이미지 포함) 정렬하는 것 */
+  /* text-align 속성으로 이미지도 정렬할 수 있다.
+    img 태그 자체한테 text-align:center; 그 부모요소한테 적용해야함
+  */
+  text-align: center;
+  margin: 20px auto;
+}
+
+.google {
+  border: 2px solid red;
+}
+
+.txt-bold {
+  font-weight: 700;
+}
+
+.naver {
+  border: 2px solid green;
+}
