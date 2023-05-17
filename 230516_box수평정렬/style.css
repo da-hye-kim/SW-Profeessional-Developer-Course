@@ -74,7 +74,7 @@
 }
 
 .center_float div {
-  /* width : 100px이 아니라 양 옆에 border : 5px씩
+  /*  width : 100px이 아니라 양 옆에 border : 5px씩
     더해져서 박스 하나의 width : 110px
   */
   float: left;
