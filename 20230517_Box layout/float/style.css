@@ -1,0 +1,30 @@
+.layout {
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+.header {
+  height: 100px;
+  background-color: aqua;
+}
+
+.left-box {
+  float: left;
+  width: 20%;
+  height: 300px;
+  background-color: blue;
+}
+
+.right-box {
+  float: right;
+  width: 80%;
+  height: 300px;
+  background-color: aquamarine;
+}
+
+.footer {
+  clear: both;
+  height: 100px;
+  background-color: rgb(70, 21, 116);
+}
